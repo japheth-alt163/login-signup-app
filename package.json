@@ -1,26 +1,21 @@
 {
   "name": "login-signup-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple login and signup application using Express, Handlebars, Mongoose, and Nodemon",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/japheth-alt163/login-signup-app.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/japheth-alt163/login-signup-app/issues"
-  },
-  "homepage": "https://github.com/japheth-alt163/login-signup-app#readme",
   "dependencies": {
-    "express": "^4.19.2",
-    "hbs": "^4.2.0",
-    "mongoose": "^8.4.5",
-    "nodemon": "^3.1.4"
-  }
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "japhe",
+  "license": "ISC"
 }
