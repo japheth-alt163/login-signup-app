@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+require('dotenv').config(); // Load environment variables from .env file
 
-const mongoURI = 'your-mongodb-connection-string-here';
+const mongoURI = process.env.MONGO_URI;
 
 mongoose.connect(mongoURI, {
     useNewUrlParser: true,
